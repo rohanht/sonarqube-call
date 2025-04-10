@@ -1,0 +1,21 @@
+{
+  "name": "sonarqube-js-example",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest --coverage",
+    "lint": "eslint src/ test/",
+    "sonar": "sonarqube-scanner"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "babel-jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "sonarqube-scanner": "^2.8.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
